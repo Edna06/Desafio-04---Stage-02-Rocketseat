@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+ --primary-color: #2F2E41;
+ --second-color: #00BfA6;
+ --primary-text-color: #C2C2C2;
+ --second-text-color: #FFFFFF;
+ --third-text-color: #000000;
+}
+
+* {
+  margin: 0;
+  background: var(--primary-color);
+  align-items: center;
+  text-align: center;
+}
+
+page {
+  align-items: center;
+  width: 1280px;
+  height: 720px;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 71px 100px 101px 99px;
+  height: 30px;
+
+}
+
+.logo {
+  height: 23px;
+  width: 128px;
+}
+
+li {
+  display:flex;
+  flex-direction: row; 
+ 
+  list-style: none;
+  gap: 48px;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 14px;
+}
+
+a:hover{
+  color: var(--third-text-color);
+  font-weight: bold;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto 89px 167px 99px;
+  width: 1092px;
+  height: 283px;
+
+}
+
+h1 {
+  color: var(--second-text-color);
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 36px;
+
+  margin-bottom: 59px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-text-color);
+  font-size: 16px;
+
+  height: 168px;
+  width: 604px;
+
+  line-height: 28px;
+
+}
+
+img {
+  margin: 0 7px 0 0;
+}
+
+span {
+  color: var(--second-color);
+}
+
+.line {
+  border-top: 1px solid var(--second-color);
+  position: absolute;
+  width: 568px;
+  left: 350px;
+}
+
+footer {
+  color: var(--primary-text-color);
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 14px;
+
+  text-align: center;
+
+  padding: 27px 65px 0px 45px;
+  margin-bottom: 23px;
+}
+
+#padlock{
+  width: 51px;
+  height: 62px;
+
+  position: fixed;
+  right: 95.28%;
+  top: 89%;
+  left: 20px;
+}
