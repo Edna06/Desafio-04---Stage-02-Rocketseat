@@ -1,3 +1,4 @@
+
 # Rocket.sect
 
 O projeto trata-se de uma reprodução de uma página Web, seguindo um modelo de layout disponíbilizado no figma pelo programa Explorer. 
@@ -7,9 +8,9 @@ O projeto trata-se de uma reprodução de uma página Web, seguindo um modelo de
 
 - HTML5 & CSS
 
-## O intuito do projeto: 
+## O intuito do projeto
 
-- Colocar em prática os conhecimentos acerca de:
+-> Colocar em prática os conhecimentos acerca de:
 
 - Estrutura de uma página (header, main e footer) 
 - Utilização de figma 
